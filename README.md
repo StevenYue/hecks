@@ -15,3 +15,9 @@ find /home/<username> -type d -print0 | xargs -0 chmod 775
 ```
 mkdir -p /home/<username>/.config/chrome/Default
 ```
+4. Run mongodb on ubuntu, except for installing (process all of the enternet) 
+```
+//mongod --port <port num> --dbpath <file path> --journal
+mongod --port 10000 --dbpath /var/lib/mongodb --journal //bring up mongo server
+mongo --port 10000 //to bring up the mongo shell
+```
