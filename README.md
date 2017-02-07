@@ -21,3 +21,8 @@ mkdir -p /home/<username>/.config/chrome/Default
 mongod --port 10000 --dbpath /var/lib/mongodb --journal //bring up mongo server
 mongo --port 10000 //to bring up the mongo shell
 ```
+5. update tmux.conf
+```
+tmux source-file ~/.tmux.conf
+```
+
