@@ -26,3 +26,7 @@ mongo --port 10000 //to bring up the mongo shell
 tmux source-file ~/.tmux.conf
 ```
 
+6. install gnome flash back
+```
+sudo apt-get install gnome-session-flashback
+```
