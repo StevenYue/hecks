@@ -30,3 +30,9 @@ tmux source-file ~/.tmux.conf
 ```
 sudo apt-get install gnome-session-flashback
 ```
+
+7. install vim-gnome instread of just vim (enjoy all the simply y and p for yanking and pasting)
+```
+sudo apt install vim-gnome
+```
+
